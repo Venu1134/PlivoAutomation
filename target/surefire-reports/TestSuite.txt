@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 3.562 s <<< FAILURE! - in TestSuite
+testGetWeatherData(com.pilvo.automation.OpenWeatherTest)  Time elapsed: 2.265 s  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [401]
+	at com.pilvo.automation.OpenWeatherTest.testGetWeatherData(OpenWeatherTest.java:16)
+
+testSendSMS(com.pilvo.automation.plivoTest)  Time elapsed: 0.937 s  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [401]
+	at com.pilvo.automation.plivoTest.testSendSMS(plivoTest.java:18)
+
